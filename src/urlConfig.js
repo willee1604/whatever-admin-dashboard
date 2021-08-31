@@ -1,6 +1,6 @@
 // const baseUrl = "https://whatever-rest-server.herokuapp.com";
 // const baseUrl = "http://localhost:2000";
-const baseUrl = process.env.API || "https://whatever-rest-server.herokuapp.com/";
+const baseUrl = process.env.API || "https://whatever-rest-server.herokuapp.com";
 
 export const api = `${baseUrl}/api`;
 // ok
