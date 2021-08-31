@@ -1,6 +1,5 @@
-const baseUrl = location.hostname === "localhost"
-  ? "http://localhost:2000"
-  : "https://whatever-rest-server.herokuapp.com";
+const baseUrl = "https://whatever-rest-server.herokuapp.com";
+// const baseUrl = "http://localhost:2000";
 
 export const api = `${baseUrl}/api`;
 
