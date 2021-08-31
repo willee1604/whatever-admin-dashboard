@@ -1,5 +1,6 @@
-const baseUrl = process.env.API || "https://flipkart-rest-server.herokuapp.com";
-//const baseUrl = "http://localhost:2000";
+const baseUrl = location.hostname === "localhost"
+  ? "http://localhost:2000"
+  : "https://whatever-rest-server.herokuapp.com";
 
 export const api = `${baseUrl}/api`;
 
